@@ -7,6 +7,17 @@ YALIS is a modular, high-performance, research-friendly inference system built t
 
 ---
 
+## 📚 Documentation
+
+| Document | Description |
+|----------|-------------|
+| [API Reference](docs/api_reference.md) | Full reference for `ModelConfig`, `InferenceConfig`, `LLMEngine`, and `SpeculativeLLMEngine` |
+| [Architecture](docs/architecture.md) | Component map, inference lifecycle, attention backends, KV cache, and checkpoint format |
+| [Speculative Decoding](docs/speculative_decoding.md) | Guide to using `SpeculativeLLMEngine` for faster inference |
+| [Tensor Parallelism](docs/tensor_parallelism.md) | Multi-GPU and multi-node inference configuration |
+
+---
+
 ## 🚀 Features
 
 - 🔁 **Pluggable attention backends** (`flash`, `sdpa`, `flex`) via a unified API
